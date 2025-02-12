@@ -11,6 +11,7 @@ public class App {
                 case 1:
                     System.out.println("Escolheu caixa de papelão:");
                     System.out.println("Ideal para trasporte e armazenamento");
+                    System.out.println("Limite empilhado 3 caixas");
                     break;
                 case 2:
                     System.out.println("Escolheu sacola plastica");
@@ -31,6 +32,7 @@ public class App {
         sc.close();
     }
 
+    // função para escolha
     public static void informacoes() {
         System.out.println("===========================");
         System.out.println("1- caixa de papelão");
